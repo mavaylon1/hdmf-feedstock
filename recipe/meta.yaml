@@ -1,6 +1,6 @@
 {% set name = "hdmf" %}
-{% set version = "1.0.3" %}
-{% set sha256 = "07fd9dab679a393d703b54344b48814835cdfc7272ec7684993271e93903f342" %}
+{% set version = "1.0.4" %}
+{% set sha256 = "2eb15c8f254810a2b52adc910a3ba09742106122cbc14f828e706dbd9584bef2" %}
 
 package:
   name: {{ name|lower }}
@@ -51,4 +51,5 @@ about:
 extra:
   recipe-maintainers:
     - ajtritt
+    - rly
     - oruebel
