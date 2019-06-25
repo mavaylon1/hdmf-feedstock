@@ -1,7 +1,3 @@
-<!--
-# -*- mode: jinja -*-
--->
-
 About hdmf
 ==========
 
@@ -22,8 +18,15 @@ representing data with Python object.
 Current build status
 ====================
 
-All platforms:
-[![noarch](https://img.shields.io/circleci/project/github/conda-forge/hdmf-feedstock/master.svg?label=noarch)](https://circleci.com/gh/conda-forge/hdmf-feedstock)
+
+<table><tr><td>All platforms:</td>
+    <td>
+      <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=6194&branchName=master">
+        <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/hdmf-feedstock?branchName=master">
+      </a>
+    </td>
+  </tr>
+</table>
 
 Current release info
 ====================
@@ -119,4 +122,5 @@ Feedstock Maintainers
 
 * [@ajtritt](https://github.com/ajtritt/)
 * [@oruebel](https://github.com/oruebel/)
+* [@rly](https://github.com/rly/)
 
