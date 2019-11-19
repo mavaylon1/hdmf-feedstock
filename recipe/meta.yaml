@@ -28,9 +28,7 @@ requirements:
     - numpy
     - scipy
     - ruamel.yaml
-    - python-dateutil
     - six
-    - requests
 
 test:
   imports:
