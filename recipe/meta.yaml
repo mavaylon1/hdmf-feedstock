@@ -1,6 +1,6 @@
 {% set name = "hdmf" %}
-{% set version = "1.5.0" %}
-{% set sha256 = "1637b6512dd14bbaa585b2c8db0121d884973b75203f540ad6882d6ac2409321" %}
+{% set version = "1.5.1" %}
+{% set sha256 = "b89c62fec0a14601058d91704129d97c0b8b7710f39541f802e69540d53b9bda" %}
 
 package:
   name: {{ name|lower }}
