@@ -13,7 +13,7 @@ source:
 
 build:
   noarch: python
-  number: 0
+  number: 1
   script: "{{ PYTHON }} -m pip install . --no-deps -vv"
 
 requirements:
@@ -24,11 +24,12 @@ requirements:
   run:
     - python
     - setuptools
-    - h5py
-    - numpy
-    - scipy
-    - ruamel.yaml
-    - six
+    - chardet >=3.0
+    - h5py >=2.9
+    - numpy >=1.17
+    - scipy >=1.3
+    - pandas >=0.25
+    - ruamel.yaml >=0.16
 
 test:
   imports:
