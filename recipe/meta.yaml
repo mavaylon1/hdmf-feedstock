@@ -24,11 +24,12 @@ requirements:
   run:
     - python
     - setuptools
-    - h5py
-    - numpy
-    - scipy
-    - ruamel.yaml
-    - six
+    - chardet 3.0.4
+    - h5py 2.10.0
+    - numpy 1.18.1
+    - scipy 1.4.1
+    - pandas 0.25.3
+    - ruamel.yaml 0.16.5
 
 test:
   imports:
