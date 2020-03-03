@@ -1,6 +1,6 @@
 {% set name = "hdmf" %}
-{% set version = "1.6.0" %}
-{% set sha256 = "651b583f02392a46638b6a58df0437ef8cd29b45f5d15a200fb3e69fb084f7bb" %}
+{% set version = "1.6.1" %}
+{% set sha256 = "97327af064d398f97b1ceaaee02cea872654dccf6dd2dce106dc2f3ec85bed38" %}
 
 package:
   name: {{ name|lower }}
@@ -14,7 +14,7 @@ source:
 build:
   noarch: python
   number: 0
-  script: "{{ PYTHON }} -m pip install . --no-deps -vv"
+  script: {{ PYTHON }} -m pip install . --no-deps -vv
 
 requirements:
   host:
@@ -38,7 +38,7 @@ about:
   home: https://github.com/hdmf-dev/hdmf
   license: BSD-3-Clause
   license_file: license.txt
-  summary: 'A Python API for working with hierarchical object data'
+  summary: A Python API for working with hierarchical object data
   description: |
     The Hierarchical Data Modeling Framework, or HDMF is a Python package
     for working with hierarchical data. It provides APIs for specifying data
