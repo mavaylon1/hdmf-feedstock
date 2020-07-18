@@ -5,7 +5,7 @@ Home: https://github.com/hdmf-dev/hdmf
 
 Package license: BSD-3-Clause
 
-Feedstock license: BSD 3-Clause
+Feedstock license: BSD-3-Clause
 
 Summary: A Python API for working with hierarchical object data
 
