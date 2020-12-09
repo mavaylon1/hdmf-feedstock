@@ -5,9 +5,11 @@ Home: https://github.com/hdmf-dev/hdmf
 
 Package license: BSD-3-Clause
 
-Feedstock license: BSD-3-Clause
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/hdmf-feedstock/blob/master/LICENSE.txt)
 
 Summary: A Python API for working with hierarchical object data
+
+Documentation: http://hdmf.readthedocs.io/en/latest/
 
 The Hierarchical Data Modeling Framework, or HDMF is a Python package
 for working with hierarchical data. It provides APIs for specifying data
