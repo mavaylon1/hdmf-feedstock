@@ -1,6 +1,6 @@
 {% set name = "hdmf" %}
-{% set version = "3.1.1" %}
-{% set sha256 = "d7bdb66eb171592458a6e055fc52203e4ec0d76254e15964261f9cf5f3df9710" %}
+{% set version = "3.2.1" %}
+{% set sha256 = "6a20bd8dbc79839b924facb3a59918d634fcf9410abfe68917da585f6111dacd" %}
 
 package:
   name: {{ name|lower }}
@@ -23,13 +23,13 @@ requirements:
     - setuptools
   run:
     - python >=3.7
-    - setuptools
     - h5py >=2.10,<4
-    - numpy >=1.16,<1.22
-    - scipy >=1.1,<2
+    - jsonschema >=2.6.0,<5
+    - numpy >=1.16,<1.23
     - pandas >=1.0.5,<2
     - ruamel.yaml >=0.16,<1
-    - jsonschema >=2.6.0,<4
+    - scipy >=1.1,<2
+    - setuptools
 
 test:
   imports:
